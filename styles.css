@@ -1,0 +1,147 @@
+h1 {
+    color: rgb(6, 214, 134);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+p { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: larger;
+}
+
+body {
+    background-image:url(gutierrez\ photos/BG.gif);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: lightgreen;
+    border: 1px dotted pink;
+    text-align: center;
+}
+
+.header {
+    color: black;
+    border: 1px solid black;
+}
+
+.imges {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.moon {
+    text-align: center;
+    margin: auto;
+    /* Removed "float: bottom;" as it's not a valid value for float */
+}
+.bt2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1.25rem;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 0.875em;
+    font-weight: 400;
+    border-radius: 0;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgb(3, 46, 44);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1.25rem;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 0.875em;
+    font-weight: 400;
+    border-radius: 0;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgb(3, 46, 44);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt1:hover {
+    background-color: rgb(0, 202, 67);
+    color: black;
+}
+.bt2:hover {
+    background-color: rgb(0, 202, 67);
+    color: black; }
+p{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+ h1{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  .btn {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  img {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  .msG {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    padding: 10px;
+    line-height: 0;
+    max-width: 190%;
+    overflow: hidden;
+}
+
+.guys {
+    clear: both;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
